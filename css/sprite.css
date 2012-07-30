@@ -1,10 +1,10 @@
-// sprite css generated on 30-07-2012-13:48
+/* sprite css generated on 30-07-2012-14:22 */
 .s, .s:after{
-  background-image: url(../img/sprite-1x.png);
+  background-image: url(../img/img/sprite-1x.png);
   background-repeat: no-repeat;
 }
-.s.antivirus{ background-position: 0 -15px; }
-.s.basket-empty{ background-position: 0 -77px; }
+.s.antivirus:hover{ background-position: 0 -15px; }
+.s.basket-empty:after{ background-position: 0 -77px; }
 .s.basket-full{ background-position: 0 -139px; }
 .s.favorites{ background-position: 0 -201px; }
 .s.file-commander{ background-position: 0 -263px; }
@@ -13,7 +13,7 @@
 .s.my-documents{ background-position: 0 -449px; }
 @media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
   .s, .s:after{
-    background-image: url(../img/sprite-2x.png);
+    background-image: url(../img/img/sprite-2x.png);
     background-size: 32px auto;
   }
 }
